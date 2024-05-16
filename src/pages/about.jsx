@@ -77,16 +77,16 @@ const About = () => {
         <h1 className="fw-bold">What We Actually Do</h1>
         <ul className="d-flex list-unstyled my-4 display-3">
             <li className="mx-2 p-3 d-flex align-items-center justify-content-center icons my-2" style={{ border: '1px solid rgba(255, 255, 255, 0.3)' }}>
-                <i className="icon-hover devicon-php-plain" style={{ color: '#43BAFF' }}></i>
+                <i className="icon-hover devicon-dot-net-plain" style={{ color: '#df352c' }}></i>
             </li>
             <li className="mx-2 p-3 d-flex align-items-center justify-content-center icons my-2" style={{ border: '1px solid rgba(255, 255, 255, 0.3)' }}>
-                <i className="icon-hover devicon-react-original" style={{ color: '#43BAFF' }}></i>
+                <i className="icon-hover devicon-react-original" style={{ color: '#df352c' }}></i>
             </li>
             <li className="mx-2 p-3 d-flex align-items-center justify-content-center icons my-2" style={{ border: '1px solid rgba(255, 255, 255, 0.3)' }}>
-                <i className="icon-hover devicon-javascript-plain" style={{ color: '#43BAFF' }}></i>
+                <i className="icon-hover devicon-javascript-plain" style={{ color: '#df352c' }}></i>
             </li>
             <li className="mx-2 p-3 d-flex align-items-center justify-content-center icons my-2" style={{ border: '1px solid rgba(255, 255, 255, 0.3)' }}>
-                <i className="icon-hover devicon-css3-plain" style={{ color: '#43BAFF' }}></i>
+                <i className="icon-hover devicon-css3-plain" style={{ color: '#df352c' }}></i>
             </li>
         </ul>
         <h3>Analyze, Develop, Testing, Deployment</h3>
