@@ -78,7 +78,7 @@ export const our_services = [
     one: "IDENTIFYING BUSINESS NEEDS",
     two: "RESPONDING THE PROBLEMS",
     three: "DESIGNING THE SOLUTION",
-    bg_img:"src/images/cardimg1.png",
+    bg_img:"src/images/card-image-1.png",
   },
   {
     id: 2,
@@ -87,7 +87,7 @@ export const our_services = [
     one: "SEARCH ENGINE OPTIMIZATION (SEO)",
     two: "SOCIAL MEDIA MARKETING (SMM)",
     three: "AFFILIATE MARKETING",
-    bg_img:"src/images/cardimg2.png",
+    bg_img:"src/images/crad-image-3.png",
   },
   {
     id: 3,
@@ -96,7 +96,7 @@ export const our_services = [
     one: "DESKTOP APPLICATIONS",
     two: "WEB APPLICATION",
     three: "MOBILE APPS",
-    bg_img:"src/images/cardimg1.png",
+    bg_img:"src/images/card-image-2.png",
   },
 ];
 export const dropdownservices = [
