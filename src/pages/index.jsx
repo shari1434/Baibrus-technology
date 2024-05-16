@@ -3,6 +3,21 @@ import { about_Us, home_banner, our_services, projects } from "../data";
 import NeedAConsultations from "../components/NeedAConsultations";
 import 'animate.css';
 const Home = () => {
+  const generateTargetUrl = (id) => {
+    switch (id) {
+      case 1:
+        return "/software-consulting";
+      case 2:
+        return "/software-development";
+      case 3:
+        return "/enterprise-application";
+      case 4:
+        return "/technology-development";
+      default:
+        return "/";
+    }
+  };
+
   return (
     <>
       {/* Home Banner Section */}
@@ -34,6 +49,7 @@ const Home = () => {
                 key={item.id}
                 className=" my-4 text-center"
               >
+                
                 <div className="cards mx-3 d-flex flex-column align-items-center">
                   <div className="card-icon text-light text-center fa-2x">
                  
