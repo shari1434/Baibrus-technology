@@ -103,7 +103,7 @@ export const dropdownservices = [
   {
 id:1,
 heading: "Software Consulting and Integrations",
-img: "https://wavestechnology.net/wp-content/uploads/2023/06/Software-Part2.jpg",
+img: "/src/images/service-1.jpg",
 title:"Your Partner for Software Consulting",
 desc: "Welcome to our software consulting and integrations page! We are a team of experienced professionals who specialize in helping businesses optimize their software solutions. Our mission is to provide the highest quality consulting and integration services to help our clients achieve their business goals.",
 para:"Our consulting services focus on helping businesses identify and address their software-related challenges. We work closely with our clients to gain an in-depth understanding of their business needs and offer customized solutions to meet those needs",
@@ -112,7 +112,7 @@ para:"Our consulting services focus on helping businesses identify and address t
   {
 id:2,
 heading: "Software Development",
-img: "https://wavestechnology.net/wp-content/uploads/2023/06/Software-Part1-2048x1367.jpg",
+img: "/src/images/software-partner.jpg",
 title:"Your Partner for Software Development",
 desc: "We are a team of skilled software developers dedicated to helping businesses achieve their technological goals. Our mission is to create high-quality, efficient, and innovative software solutions that meet the unique needs of each client.",
 para:"We offer custom software development services to help businesses create software solutions that are specifically tailored to their needs. Our team of developers has experience in a wide range of technologies and programming languages, allowing us to create solutions that are both innovative and effective",
@@ -121,7 +121,7 @@ para:"We offer custom software development services to help businesses create so
   {
     id:3,
    heading:"Enterprise Applications",
-    img: "https://wavestechnology.net/wp-content/uploads/2020/02/apple-w.png",
+    img: "/src/images/mobile.jpg",
     title:"Your Partner for Enterprise Applications",
     desc: "We are a team of experienced professionals who specialize in developing and implementing enterprise-level software solutions. Our mission is to help businesses optimize their operations by providing innovative and efficient software applications.",
     para:"We offer enterprise application development services to help businesses create software solutions that are specifically tailored to their needs. Our team of developers has experience in a wide range of technologies and programming languages, allowing us to create solutions that are both innovative and effective",
@@ -130,7 +130,7 @@ para:"We offer custom software development services to help businesses create so
   {
 id:4,
 heading: "Technology Development",
-img: "https://wavestechnology.net/wp-content/uploads/2023/06/Techn.jpg",
+img: "/src/images/Techn.jpg",
 title:"Your Partner for Technology Development",
 desc: "We are a team of skilled technology developers dedicated to helping businesses stay ahead of the curve with innovative and cutting-edge technology solutions. Our mission is to create high-quality, efficient, and future-proof technology solutions that meet the unique needs of each client.",
 para:"We offer custom technology development services to help businesses create solutions that are specifically tailored to their needs. Our team of developers has experience in a wide range of technologies and programming languages, allowing us to create solutions that are both innovative and effective",

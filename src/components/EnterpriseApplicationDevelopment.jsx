@@ -16,7 +16,9 @@ const EnterpriseApplicationDevelopment = () => {
       </div>
       
     </div>
-    <div><img src="https://wavestechnology.net/wp-content/uploads/2020/02/app-watch-1.jpg" alt="img" /></div>
+    <div><img src="/src/images/robot-1.jpg" alt="img" className="img-fluid mb-5
+      " style={{width:'40vh',height:'50vh'}} /></div>
+    
     <div>
     <div>
       <div className="d-flex align-items-center">

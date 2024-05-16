@@ -229,7 +229,7 @@ transition: transform 0.3s ease;
 }
 .drop-down-image{
   width: 60vh;
-  height: 60vh;
+  height: 80vh !important;
 }
 
 
@@ -259,11 +259,10 @@ list-style: none;
   color:  #B1B5D3;
 }
 .footer-p-hover:hover{
-color: white;
+color: white !important;
 cursor: pointer;
 }
-.bg-footer{
-}
+
 .fa-arrow-right{
 color: #df352c !important;
 }
