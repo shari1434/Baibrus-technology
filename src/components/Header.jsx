@@ -182,7 +182,7 @@ const Header = () =>  {
                 <span>
                   <div className="me-5">
                     <p className="my-0">Have Any Questions?</p>
-                    <p className="my-0 fw-bold">+1-954-850-8839</p>
+                    <p className="my-0 fw-bold">+92-300-2520244</p>
                   </div>
                 </span>
               </div>

@@ -12,7 +12,7 @@ const Footer = () => {
                 style={{ width: "180px"}}
               />
               <p className="footer-p my-3">
-                BaibrusTechnology was established in 2021 as a professional IT
+                Baibrus Technologies was established in 2021 as a professional IT
                 consultant with a vision to cater to private and public
                 industries lacking informational technology.
               </p>
@@ -71,7 +71,7 @@ const Footer = () => {
           <div className="d-flex flex-column-reverse flex-md-row justify-content-between align-items-center">
             <div className="text-center text-md-start mb-3 mb-md-0">
               <p className="mb-0">
-                &copy; 2024 BaibrusTechnology. All Rights Reserved
+                &copy; 2024 Baibrus Technologies. All Rights Reserved.
               </p>
             </div>
             <div className="d-flex footer-p footer-p-hover">

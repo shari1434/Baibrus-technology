@@ -19,8 +19,8 @@ const Services = () => {
         <div className="row my-5">
           {services_card.map((item) => (
             <div key={item.id} className="container-fluid col-lg-4 col-md-6 col-sm-12 d-flex">
-              <div className="text-center my-2 fa-3x mx-4">
-                <img src={item.icon} alt="" className="services-icon" style={{width:'50px'}}/>
+              <div className="text-center my-2 fa-3x mx-4 services-icon">
+                <i className={`${item.icon} `} style={{width:'50px'}}></i>
               </div>
               <div className="container-fluid">
                 <h5 className="fw-bold mb-3">{item.title}</h5>

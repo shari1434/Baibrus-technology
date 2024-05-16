@@ -6,7 +6,7 @@ const NeedAConsultations = () => {
   <>
   <div
         style={{
-          backgroundImage: `url('https://engitech.s3.amazonaws.com/images/bg-cta-home2.jpg')`,
+          backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.5), rgba(100, 0, 0, 0.5)), url('src/images/baibrus homebanner5.jpg')`,
           backgroundSize: "cover",
           backgroundPosition: "center",
           height: "70vh",

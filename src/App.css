@@ -30,17 +30,17 @@ html {
   color: #df352c;
   font-size: small;
   font-weight: bolder;
-  margin-top: 70px;
+  margin-top: 100px;
 }
 .bg-img{
   height: 100vh;
 }
 
 .services-icon {
-  fill: white;
+  color: #df352c !important;
   width: 50px; /* Adjust the width as needed */
   height: 50px; /* Adjust the height as needed */
-  transition: transform 0.3s ease-in-out; /* Smooth transition effect */
+  /* transition: transform 0.3s ease-in-out; Smooth transition effect */
 }
 
 /* Hover effect - scale the icon on hover */
@@ -50,13 +50,16 @@ html {
   transform: scale(1.2); /* Adjust the scale factor as needed */
   cursor: pointer;
 }
+.consultingicon{
+  color: #DF352c;
+}
 
 .fa-phone {
   color: #df352c;
   
 }
 .color-count {
-  color: #df352c;
+  color: #ff5f57;
   font-size: medium, bold;
 }
 .cards {
@@ -68,7 +71,8 @@ html {
 
 .cards:hover {
   background-color: #DF352c;
-  border: 1px solid grey;
+  opacity: 75%;
+  border: 1px solid black;
   cursor: pointer;
 }
 
@@ -76,8 +80,12 @@ html {
   transition: all 0.3s ease-in-out;
   box-shadow: 1px 1px 20px 1px rgb(207, 199, 199);
 }
-.card-icon:hover{
+.cards:hover .card-icon, .cards:hover .card-title{
   color:  black !important;
+  font-weight: bolder;
+}
+.text-decor{
+  text-decoration: none !important;
 }
 
 .active-client {
@@ -151,7 +159,7 @@ html {
 }
 .needaconsultant-btn {
   margin-bottom: 5px;
-  background-color: black;
+  background-color: maroon;
   border: 1px solid #DF352c;
   color: #ffff;
   font-weight: 600;
@@ -160,8 +168,8 @@ html {
 }
 
 .needaconsultant-btn:hover {
-  background-color: #800000;
-  border: 1px solid #800000;
+  background-color: #DF352c;
+  border: 1px solid #DF352c;
   color: white;
 }
 
@@ -189,6 +197,10 @@ html {
   
   font-weight: 600;
   transition: all 0.3s ease-in-out;
+}
+.tech-index-div{
+  margin-top: 120px !important;
+  
 }
 .navbar-hover:hover {
   color: #df352c;
@@ -240,7 +252,7 @@ transition: transform 0.3s ease;
 }
 .text-animate:hover {
   transform: translateX(20px);
-  color: #2787ba;
+  color: #df352c;
 }
 
 

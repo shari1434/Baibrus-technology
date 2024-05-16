@@ -2,46 +2,47 @@
 
 const ConsultingServices = () => {
   return (
-      <>
+    <>
       <div className="container">
-        
-          <h6 className="s-heading text-center mt-5">BUSINESS BENEFITS</h6>
-          <h1 className="text-center fw-bold">Consulting Services</h1>
+        <h6 className="s-heading text-center mt-5">BUSINESS BENEFITS</h6>
+        <h1 className="text-center fw-bold">Consulting Services</h1>
       </div>
       <div className="container d-flex flex-column flex-sm-row justify-content-center align-items-center">
-      <div>
-        <div className="d-flex align-items-center">
-        <h4>Software analysis and evaluation</h4>
-       <img src="src/images/1.png" alt="" className="mx-2 my-2" style={{width:"8vh"}}/>
-        </div>
-        <div className="d-flex align-items-center">
-        <h4>Technology strategy development</h4>
-        <img src="src/images/2.png"  alt="" className="mx-2 my-2" style={{width:"8vh"}}/>
-        </div>
-        <div className="d-flex align-items-center">
-        <h4>Custom software development</h4>
-        <img src="src/images/3.png" alt="" className="mx-2 my-2 " style={{width:"8vh"}}/>
+        <div className="row">
+          <div className="col-5 mt-5">
+            <div className="d-flex align-items-center">
+              <h4>Software analysis and evaluation</h4>
+              <i className="fa-regular fa-window-restore ms-5 consultingicon fs-1 mb-3"></i>
+            </div>
+            <div className="d-flex align-items-center">
+              <h4>Technology strategy development</h4>
+              <i className="fa-solid fa-microchip ps-1 ms-4 consultingicon fs-1 mb-3"></i>
+            </div>
+            <div className="d-flex align-items-center">
+              <h4>Custom software development</h4>
+              <i className="fa-brands fa-uncharted ps-3 ms-5 consultingicon fs-1 mb-3"></i>
+            </div>
+          </div>
+          <div className="col-2 mb-5">
+            <img src="src/images/consultingservices.jpg" style={{ width: "30vh" }} />
+          </div>
+          <div className="col-5 mt-5">
+            <div className="d-flex align-items-center">
+              <i className="fa-solid fa-bars-progress ps-3 ms-3 consultingicon fs-1 mb-3"></i>
+              <h4 className="ms-4">Vendor selection and management</h4>
+            </div>
+            <div className="d-flex align-items-center">
+              <i className="fa-solid fa-diagram-project ps-3 ms-3 consultingicon fs-1 mb-3" ></i>
+              <h4 className="ms-4">Project management</h4>
+            </div>
+            <div className="d-flex align-items-center mb-5">
+              <i className="fa-brands fa-intercom ps-3 ms-3 consultingicon fs-1 mb-3" ></i>
+              <h4 className="ms-4">Integration</h4>
+            </div>
+          </div>
         </div>
       </div>
-      <div><img src="https://wavestechnology.net/wp-content/uploads/2020/02/app-watch-1.jpg" alt="img" /></div>
-      <div>
-      <div>
-        <div className="d-flex align-items-center">
-        <img src="src/images/4.png"  alt="" className="mx-2 my-2" style={{width:"8vh"}}/>
-        <h4>Vendor selection and management</h4>
-        </div>
-        <div className="d-flex align-items-center">
-        <img src="src/images/5.png"  alt="" className="mx-2 my-2" style={{width:"8vh"}}/>
-        <h4>Project management</h4>
-        </div>
-        <div className="d-flex align-items-center mb-5">
-        <img src="src/images/6.png"  alt="" className="mx-2 my-2" style={{width:"8vh"}}/>
-        <h4 className="">Integration</h4>
-        </div>
-      </div>
-      </div>
-      </div>
-      </>
+    </>
   )
 }
 

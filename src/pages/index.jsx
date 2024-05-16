@@ -2,7 +2,23 @@
 import { about_Us, home_banner, our_services, projects } from "../data";
 import NeedAConsultations from "../components/NeedAConsultations";
 import 'animate.css';
+import { Link } from "react-router-dom";
 const Home = () => {
+
+  const generateTargetUrl = (id) => {
+    switch (id) {
+      case 1:
+        return "/software-consulting";
+      case 2:
+        return "/software-development";
+      case 3:
+        return "/enterprise-application";
+      case 4:
+        return "/technology-development";
+      default:
+        return "/";
+    }
+  };
   return (
     <>
       {/* Home Banner Section */}
@@ -10,46 +26,41 @@ const Home = () => {
         style={{
           backgroundImage: `url('src/images/baibrus-homebanner.jpg')`,
           backgroundSize: "cover",
-          
-          
-          
-         
         }}
       >
         <div className="container pt-5">
           <div className="justify-content-center">
             <div>
-            <h1
-              className=" text-center mt-5 mb-4 big-heading"
-              style={{
-                textShadow: "1px 1px 10px 1px black",
-              }}
-            >
-              ADVANCING TECHNOLOGY
-            </h1>
+              <h1
+                className=" text-center mt-5 mb-4 big-heading"
+                style={{
+                  textShadow: "1px 1px 10px 1px black",
+                }}
+              >
+                ADVANCING TECHNOLOGY
+              </h1>
             </div>
             <div className="d-flex flex-column flex-sm-row align-items-center justify-content-center">
-            {home_banner.map((item) => (
-              <div
-                key={item.id}
-                className=" my-4 text-center"
-              >
-                <div className="cards mx-3 d-flex flex-column align-items-center">
-                  <div className="card-icon text-light text-center fa-2x">
-                 
-                    <i className={`${item.icon} my-2 pe-2`}  >
-                    
-                    </i>
-                  </div>
-                  <h5
-                    className="card-title text-light"
-                    style={{ fontSize: "1rem" }}
-                  >
-                    {item.title}
-                  </h5>
+              {home_banner.map((item) => (
+                <div
+                  key={item.id}
+                  className=" my-4 text-center"
+                >
+                  <Link to={generateTargetUrl(item.id)} className="text-decor">
+                    <div className="cards mx-3 d-flex flex-column align-items-center">
+                      <div className="card-icon text-light text-center fa-2x">
+                        <i className={`${item.icon} my-2 pe-2`} > </i>
+                      </div>
+                      <h5
+                        className="card-title text-light"
+                        style={{ fontSize: "1rem" }}
+                      >
+                        {item.title}
+                      </h5>
+                    </div>
+                  </Link>
                 </div>
-              </div>
-            ))}
+              ))}
             </div>
           </div>
         </div>
@@ -57,17 +68,17 @@ const Home = () => {
 
       {/* About Us Section */}
       <div
-        className="container my-5  d-flex justify-content-center flex-column align-items-center"
+        className="container my-5 d-flex justify-content-center flex-column align-items-center"
         style={{
-          backgroundImage: `url('http://wavestechnology.net/wp-content/uploads/2020/03/bg-art2-home4.png')`,
+          backgroundImage: `url('')`,
           backgroundRepeat: "no-repeat",
           height: "100vh",
         }}
       >
         <h6 className="s-heading">WE ARE BAIBRUSTECHNOLOGY</h6>
-        <h1 className="fw-bold text-center ">We are Trusted in <br/>4+ Countries Worldwide</h1>
+        <h1 className="fw-bold text-center ">We are Trusted in <br />4+ Countries Worldwide</h1>
         <img
-          src="https://wavestechnology.net/wp-content/uploads/2022/07/homepage-min.png"
+          src="src/images/baibrus-homebanner3.jpg"
           alt=""
           className="w-100 img-fluid"
           style={{ backgroundPosition: "center", backgroundSize: "cover" }}
@@ -76,9 +87,9 @@ const Home = () => {
 
       {/* Technology Index Section */}
       <div
-        className="container-fluid py-5 text-light"
+        className="container-fluid py-5 text-light tech-index-div"
         style={{
-          backgroundImage: `url('https://engitech.s3.amazonaws.com/images/bg-s2-home3.jpg')`,
+          backgroundImage: `url('src/images/baibrus-homebanner4.jpg')`,
           backgroundSize: "cover",
           // height: "90vh",
         }}
@@ -86,7 +97,7 @@ const Home = () => {
         <div className="container">
           <div className="row">
             <div className="col-md-6">
-              <h6 className="mb-2" style={{color:" #8E88B8",}}>TECHNOLOGY INDEX</h6>
+              <h6 className="mb-2" style={{ color: " #8E88B8", }}>TECHNOLOGY INDEX</h6>
               <h1 className="fw-bold">Improve and Innovate with the Tech Trends</h1>
               <p>
                 We hire and build your own remote dedicated development teams
@@ -141,22 +152,23 @@ const Home = () => {
             <div
               key={item.id}
               className="col-12 col-sm-12 col-md-8 col-lg-4 my-4 mx-2 border py-4 px-4 cards1"
-              style={{ backgroundImage: `url(${item.bg_img})`, 
-              backgroundSize:"cover",
+              style={{
+                backgroundImage: `url(${item.bg_img})`,
+                backgroundSize: "cover",
               }}  >
-                 
+
               <h5 className="fw-bold me-4 title fs-6">{item.title}</h5>
               <p className="col-md-10 text-secondary desc">{item.desc}</p>
               <ul className="list-unstyled ">
-              <li className="list py-1 px-2 text-animate " style={{
-                fontWeight: 600
-              }}>{item.one}</li>
-              <li className="list py-1 px-2 text-animate  " style={{
-                fontWeight: 600
-              }}>{item.two}</li>
-              <li className="list py-1 px-2 text-animate " style={{
-                fontWeight: 600
-              }}>{item.three}</li>
+                <li className="list py-1 px-2 text-animate " style={{
+                  fontWeight: 600
+                }}>{item.one}</li>
+                <li className="list py-1 px-2 text-animate  " style={{
+                  fontWeight: 600
+                }}>{item.two}</li>
+                <li className="list py-1 px-2 text-animate " style={{
+                  fontWeight: 600
+                }}>{item.three}</li>
               </ul>
             </div>
           ))}
