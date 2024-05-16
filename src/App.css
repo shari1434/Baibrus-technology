@@ -259,7 +259,7 @@ list-style: none;
   color:  #B1B5D3;
 }
 .footer-p-hover:hover{
-color: white;
+color: white !important;
 cursor: pointer;
 }
 .bg-footer{
