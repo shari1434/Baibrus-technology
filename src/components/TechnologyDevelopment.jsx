@@ -16,7 +16,7 @@ const TechnologyDevelopment = () => {
       
     </div>
     <div >
-      <img src="https://wavestechnology.net/wp-content/uploads/2023/06/AI-768x1150.jpg" className="ms-5" style={{
+      <img src="/src/images/AI-768x1150.jpg" className="ms-5" style={{
         width: '50vh',
         margin:'20px',
        

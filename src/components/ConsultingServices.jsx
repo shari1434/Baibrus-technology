@@ -8,6 +8,7 @@ const ConsultingServices = () => {
         <h1 className="text-center fw-bold">Consulting Services</h1>
       </div>
       <div className="container d-flex flex-column flex-sm-row justify-content-center align-items-center">
+
         <div className="row">
           <div className="col-5 mt-5">
             <div className="d-flex align-items-center">
@@ -41,6 +42,8 @@ const ConsultingServices = () => {
             </div>
           </div>
         </div>
+
+     
       </div>
     </>
   )

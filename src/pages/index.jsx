@@ -4,7 +4,6 @@ import NeedAConsultations from "../components/NeedAConsultations";
 import 'animate.css';
 import { Link } from "react-router-dom";
 const Home = () => {
-
   const generateTargetUrl = (id) => {
     switch (id) {
       case 1:
@@ -41,6 +40,7 @@ const Home = () => {
               </h1>
             </div>
             <div className="d-flex flex-column flex-sm-row align-items-center justify-content-center">
+
               {home_banner.map((item) => (
                 <div
                   key={item.id}
@@ -59,6 +59,7 @@ const Home = () => {
                       </h5>
                     </div>
                   </Link>
+
                 </div>
               ))}
             </div>
