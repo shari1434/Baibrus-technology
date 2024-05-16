@@ -7,9 +7,9 @@ const Breadcrumb = ({ title, subtitle }) => {
       <section
         className="d-flex align-items-center "
         style={{
-          background: `url( ${"http://wavestechnology.net/wp-content/uploads/2022/05/bg-pheader.jpg"})`,
+          background: `url('src/images/baibrus-homebanner4.jpg')`,
           backgroundSize: "cover",
-          backgroundPosition: "center",
+          backgroundPosition: "left",
           height: "40vh",
           opacity: 40,
         }}

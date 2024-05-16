@@ -44,7 +44,7 @@ const ContactForm = () => {
                 </div>
                 <div className="align-items-center mx-3">
                   <h5 className="">Our Address:</h5>
-                  <p>6211, Summerfield Glade Ln Katy, TX 77494</p>
+                  <p>#505, 5th Floor, Progressive Square, Block-6, PECHS, Shahrah-e-Faisal, Karachi.</p>
                 </div>
               </div>
 
@@ -57,7 +57,7 @@ const ContactForm = () => {
                 </div>
                 <div className="align-items-center mx-3">
                   <h5>Our Mailbox:</h5>
-                  <p>info@wavestechnology.net</p>
+                  <p>info@baibrus.com</p>
                 </div>
               </div>
 
@@ -70,7 +70,7 @@ const ContactForm = () => {
                 </div>
                 <div className="align-items-center mx-3">
                   <h5>Our Phone:</h5>
-                  <p>+1-954-850-8839</p>
+                  <p>+92-300-2520244</p>
                 </div>
               </div>
             </div>
@@ -115,7 +115,7 @@ const ContactForm = () => {
       </div>
       <div className="contact-map">
         <iframe
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3465.579577460986!2d-95.80539612466879!3d29.70296647509734!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8641219ca6a9e739%3A0x89aeb11486c559cd!2s6211%20Summerfield%20Glade%20Ln%2C%20Katy%2C%20TX%2077494%2C%20USA!5e0!3m2!1sen!2s!4v1705669056253!5m2!1sen!2s"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7240.217803507226!2d67.0541960935791!3d24.860129900000015!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3eb33f9e04023ba9%3A0xff00a60f4bc51619!2sProgressive%20Square!5e0!3m2!1sen!2s!4v1715861268018!5m2!1sen!2s"
           referrerPolicy="no-referrer-when-downgrade"
           style={{ width: "100%", height: "70vh" }}
         ></iframe>
