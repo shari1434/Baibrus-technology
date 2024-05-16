@@ -39,7 +39,7 @@ const ContactForm = () => {
                 <div className="mb-3">
                   <i
                     className="fa fa-globe"
-                    style={{ color: "#27AAE1", fontSize: "35px" }}
+                    style={{ color: "#df352c", fontSize: "35px" }}
                   ></i>
                 </div>
                 <div className="align-items-center mx-3">
@@ -52,7 +52,7 @@ const ContactForm = () => {
                 <div className="mb-3">
                   <i
                     className="fa fa-envelope"
-                    style={{ color: "#27AAE1", fontSize: "35px" }}
+                    style={{ color: "#df352c", fontSize: "35px" }}
                   ></i>
                 </div>
                 <div className="align-items-center mx-3">
@@ -65,7 +65,7 @@ const ContactForm = () => {
                 <div className="mb-3">
                   <i
                     className="fas fa-phone-volume"
-                    style={{ color: "#27AAE1", fontSize: "35px" }}
+                    style={{ color: "#df352c", fontSize: "35px" }}
                   ></i>
                 </div>
                 <div className="align-items-center mx-3">

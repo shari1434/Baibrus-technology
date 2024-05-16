@@ -12,6 +12,20 @@ html {
   overflow-x: hidden;
 }
 
+
+.drop-down:focus, 
+.drop-down:hover {
+    outline: none !important;
+    box-shadow: none;
+}
+
+
+.drop-down:active,
+.drop-down:focus,
+.drop-down:hover {
+    background-color: transparent !important;
+}
+
 .s-heading {
   color: #df352c;
   font-size: small;
@@ -67,28 +81,26 @@ html {
 }
 
 .active-client {
-  background-color: rgb(
-    41,
-    77,
-    146
-  ); /* For browsers that do not support gradients */
-  background-image: linear-gradient(
+  /* background-color: rgb(214, 31, 31); For browsers that do not support gradients */
+  background: linear-gradient(
     to right,
-    #08d3fa,
-    #3b8cd6,
-    #5766c3,
-    #6a4ab5
+    #e75e57,
+    #df352c,
+    #e1281e,
+    #b82119,
+    #86110b
   );
 }
 .career-form-area {
-  width: 100vh;
+ 
   background: linear-gradient(
     to right,
-    #27a5de,
-    #297dc0,
-    #2966b0,
-    #2a56a5,
-    #2b4498
+  
+    #e75e57,
+    #df352c,
+    #e1281e,
+    #b82119,
+    #86110b
   );
 }
 
@@ -110,11 +122,17 @@ html {
 
 .my-form-input {
   width: 100%;
-  padding: 8px;
+  padding: 5px;
   margin-bottom: 12px;
   box-sizing: border-box;
-  background: linear-gradient(to right, #69b0dc, #6aa9d7, #6a91c6, #6a81ba);
-  border: 1px solid #6a8cc2;
+  
+  background: linear-gradient(to right, 
+  #e75e57,
+  #df352c,
+  #e1281e,
+  #b82119,
+  #86110b);
+  border: 1px solid #080808;
 }
 .contact-btn {
   margin-bottom: 5px;
@@ -127,13 +145,13 @@ html {
 }
 
 .contact-btn:hover {
-  background-color: #2b3990;
-  border: 1px solid #2b3990;
+  background-color: black;
+  border: 1px solid #DF352c;
   color: white;
 }
 .needaconsultant-btn {
   margin-bottom: 5px;
-  background-color: #DF352c;
+  background-color: black;
   border: 1px solid #DF352c;
   color: #ffff;
   font-weight: 600;
@@ -401,20 +419,8 @@ display: none;
   }
  
   }
-  .active-client {
-    background-color: rgb(
-      41,
-      77,
-      146
-    ); /* For browsers that do not support gradients */
-    background-image: linear-gradient(
-      to right,
-      #08d3fa,
-      #3b8cd6,
-      #5766c3,
-      #6a4ab5
-    );
-  }
+  
+  
   .drop-down-image{
     height: 370px;
     width: 95%;

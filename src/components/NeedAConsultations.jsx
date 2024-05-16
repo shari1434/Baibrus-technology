@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom"
 
 
 const NeedAConsultations = () => {
@@ -30,7 +31,9 @@ const NeedAConsultations = () => {
               NEED A CONSULTATION?
             </h1>
             <div className="d-flex align-items-center justify-content-center mt-4">
-            <button className="needaconsultant-btn my-7 w-30">Contact Us</button>
+            <Link to='/contact'>
+            <button className="needaconsultant-btn my-7 w-30" >Contact Us</button>
+            </Link>
             </div>
           </div>
         </div>
