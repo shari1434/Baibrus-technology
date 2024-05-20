@@ -23,7 +23,7 @@ const Home = () => {
       {/* Home Banner Section */}
       <div className="container-fluid bg-img"
         style={{
-          backgroundImage: `url('src/images/baibrus-homebanner.jpg')`,
+          backgroundImage: `url('baibrus-homebanner.jpg')`,
           backgroundSize: "cover",
         }}
       >
@@ -79,7 +79,7 @@ const Home = () => {
         <h6 className="s-heading">WE ARE BAIBRUSTECHNOLOGY</h6>
         <h1 className="fw-bold text-center ">We are Trusted in <br />4+ Countries Worldwide</h1>
         <img
-          src="src/images/baibrus-homebanner3.jpg"
+          src="baibrus-homebanner3.jpg"
           alt=""
           className="w-100 img-fluid"
           style={{ backgroundPosition: "center", backgroundSize: "cover" }}
@@ -90,7 +90,7 @@ const Home = () => {
       <div
         className="container-fluid py-5 text-light tech-index-div"
         style={{
-          backgroundImage: `url('src/images/baibrus-homebanner4.jpg')`,
+          backgroundImage: `url('baibrus-homebanner4.jpg')`,
           backgroundSize: "cover",
           // height: "90vh",
         }}

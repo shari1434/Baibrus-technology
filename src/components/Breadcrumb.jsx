@@ -7,7 +7,7 @@ const Breadcrumb = ({ title, subtitle }) => {
       <section
         className="d-flex align-items-center "
         style={{
-          background: `url('src/images/baibrus-homebanner4.jpg')`,
+          background: `url('baibrus-homebanner4.jpg')`,
           backgroundSize: "cover",
           backgroundPosition: "left",
           height: "40vh",
