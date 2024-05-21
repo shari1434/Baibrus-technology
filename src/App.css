@@ -264,6 +264,9 @@ font-weight: 400;
 line-height: 300%;
 list-style: none;
 }
+.footerbg{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(200, 0, 0, 0.9));
+}
 .liststyle{
   list-style: none;
 }

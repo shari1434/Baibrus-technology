@@ -11,7 +11,7 @@ const TechnologyDevelopment = () => {
     <div>
       <div className="d-flex align-items-center">
       <h4 className="">IoT (Internet of Things) Development</h4>
-      <img src="src/images/4.png"  alt="" className="mx-2 my-2" style={{width:"8vh"}}/>
+      <img src="4.png"  alt="" className="mx-2 my-2" style={{width:"8vh"}}/>
       </div>
       
     </div>

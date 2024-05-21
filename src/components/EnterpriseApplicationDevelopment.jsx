@@ -12,17 +12,17 @@ const EnterpriseApplicationDevelopment = () => {
     <div>
       <div className="d-flex align-items-center ">
       <h4>Enterprise resource planning (ERP)</h4>
-      <img src="src/images/2.png"  alt="" className="mx-2 my-2" style={{width:"8vh"}}/>
+      <img src="2.png"  alt="" className="mx-2 my-2" style={{width:"8vh"}}/>
       </div>
       
     </div>
-    <div><img src="/src/images/robot-1.jpg" alt="img" className="img-fluid mb-5
+    <div><img src="robot-1.jpg" alt="img" className="img-fluid mb-5
       " style={{width:'40vh',height:'50vh'}} /></div>
     
     <div>
     <div>
       <div className="d-flex align-items-center">
-      <img src="src/images/4.png"  alt="" className="mx-4 my-2 mb-5" style={{width:"8vh",}}/>
+      <img src="4.png"  alt="" className="mx-4 my-2 mb-5" style={{width:"8vh",}}/>
       <h4>Customer Relationship Management (CRM)</h4>
       </div>
      

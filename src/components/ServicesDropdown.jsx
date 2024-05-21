@@ -67,7 +67,7 @@ const ServicesDropdown = (props) => {
       <div
         className=""
         style={{
-          backgroundImage: `url(${"src/images/baibrus-homebanner2.jpg"})`,
+          backgroundImage: `url(${"baibrus-homebanner2.jpg"})`,
           backgroundRepeat: "no-repeat",
         }}
       >
